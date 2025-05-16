@@ -1,0 +1,110 @@
+html {
+    font-size: 62.5%;
+}
+
+@media (max-width:768px) {
+    html {
+        font-size: 1.30208vw;
+    }
+
+    br {
+        display: none;
+    }
+}
+
+@media (max-width:540px) {
+    html {
+        font-size: 1.85185vw;
+    }
+}
+
+body {
+    font-size: 1.6rem;
+    color: #000;
+}
+
+.inner {
+    max-width: 141rem;
+    margin: 0 auto;
+}
+
+.default {
+    padding: 12rem 0;
+}
+
+.default .title {
+    max-width: 141rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.default .title h2 {
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+}
+
+.default .title strong {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.default .title p {
+    margin-top: 1.6rem;
+    margin-bottom: 4.8rem;
+}
+
+.default .title a {
+    border-bottom: 1px solid #333;
+    margin-bottom: 4rem;
+}
+
+@media (max-width:768px) {
+    .inner {
+        max-width: 141rem;
+        margin: 0 auto;
+
+        /*  */
+        margin: 0 1.6rem;
+    }
+
+    .default {
+        padding: 12rem 0;
+    }
+
+    .default .title {
+        max-width: 141rem;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        /*  */
+        margin: 0 1.6rem;
+        align-items: flex-start;
+    }
+
+    .default .title h2 {
+        font-weight: 700;
+        margin-bottom: 1.6rem;
+    }
+
+    .default .title strong {
+        font-size: 4rem;
+        font-weight: 500;
+    }
+
+    .default .title p {
+        margin-top: 1.6rem;
+        margin-bottom: 4.8rem;
+    }
+
+    .default .title a {
+        border-bottom: 1px solid #333;
+        margin-bottom: 4rem;
+
+        /*  */
+        margin-bottom: 0;
+    }
+}
